@@ -1,0 +1,31 @@
+project: The Salt Archive (original mode, feeds quests and items for a small RPG)
+entries: 17 (things 12, moments 5)
+quest in 01: 3, without moments: 0
+unverified: 0, proposed: 2
+SHORT voice lines: 4
+errors: 0, warnings: 0
+
+kind x tier:
+  character    iconic=2  known=1  deep-cut=0
+  event        iconic=0  known=1  deep-cut=0
+  faction      iconic=0  known=1  deep-cut=0
+  item         iconic=1  known=0  deep-cut=0
+  location     iconic=1  known=1  deep-cut=0
+  moment       iconic=2  known=3  deep-cut=0
+  species      iconic=0  known=0  deep-cut=1
+  substance    iconic=1  known=0  deep-cut=0
+  vehicle      iconic=0  known=1  deep-cut=0
+  weapon       iconic=0  known=0  deep-cut=1
+story weight (things): major=2, minor=9, none=1
+
+files:
+  00 index.md              41 lines
+  01 outline.md            9 lines
+  02 characters.md         43 lines
+  03 places.md             46 lines
+  04 things.md             46 lines
+  05 style.md              13 lines
+  06 voice.md              14 lines
+  07 sources.md            6 lines
+  08 moments.md            72 lines
+  09 ideas.md              7 lines

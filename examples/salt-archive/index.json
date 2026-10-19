@@ -1,0 +1,617 @@
+[
+ {
+  "slug": "wren-calloway",
+  "name": "Wren Calloway",
+  "kind": "character",
+  "section": "Section 1: Named characters",
+  "tier": "iconic",
+  "what": "Apprentice archivist, seventeen, the player character. Breaks the Archive's first rule on her first day.",
+  "maps_to": "player character, curiosity as a mechanic (tasting salt unlocks dialogue)",
+  "visual": "Thin girl, cropped black hair, oversized grey archivist coat, salt-stained gloves, satchel",
+  "lighting": "",
+  "appears": [
+   "Q1",
+   "Q2",
+   "Q3"
+  ],
+  "aliases": [
+   "Wren"
+  ],
+  "quotes": [],
+  "source": "owner",
+  "who": [],
+  "where": "",
+  "tone": [],
+  "follows": "",
+  "weight": "",
+  "refs": {
+   "folders": [],
+   "pointers": []
+  },
+  "unverified": false,
+  "proposed": false,
+  "file": "02 characters.md",
+  "line": 5,
+  "drives_moments": 4,
+  "story_weight": "major",
+  "ref_count": 0,
+  "gap": false
+ },
+ {
+  "slug": "the-brinewarden",
+  "name": "The Brinewarden",
+  "kind": "character",
+  "section": "Section 1: Named characters",
+  "tier": "iconic",
+  "what": "Keeper of the Salt Archive. Seals memories to spare the living their grief (DECISIONS 3).",
+  "maps_to": "boss fight that can end in talk, gatekeeper of locked areas",
+  "visual": "Tall old woman, white robes crusted with salt, iron key ring, calm face",
+  "lighting": "",
+  "appears": [
+   "Q1",
+   "Q3"
+  ],
+  "aliases": [],
+  "quotes": [],
+  "source": "DECISIONS 3",
+  "who": [],
+  "where": "",
+  "tone": [],
+  "follows": "",
+  "weight": "",
+  "refs": {
+   "folders": [],
+   "pointers": []
+  },
+  "unverified": false,
+  "proposed": false,
+  "file": "02 characters.md",
+  "line": 15,
+  "drives_moments": 1,
+  "story_weight": "minor",
+  "ref_count": 0,
+  "gap": false
+ },
+ {
+  "slug": "old-tamsin",
+  "name": "Old Tamsin",
+  "kind": "character",
+  "section": "Section 1: Named characters",
+  "tier": "known",
+  "what": "Smuggler and market trader who sells memories the Archive never sealed. Knew Wren's mother (proposed).",
+  "maps_to": "merchant, quest giver for trade quests",
+  "visual": "Stout woman in a patched oilskin, gold teeth, many rings, pipe",
+  "lighting": "",
+  "appears": [
+   "Q2",
+   "Q3"
+  ],
+  "aliases": [
+   "Tamsin"
+  ],
+  "quotes": [],
+  "source": "owner",
+  "who": [],
+  "where": "",
+  "tone": [],
+  "follows": "",
+  "weight": "",
+  "refs": {
+   "folders": [],
+   "pointers": []
+  },
+  "unverified": false,
+  "proposed": true,
+  "file": "02 characters.md",
+  "line": 24,
+  "drives_moments": 2,
+  "story_weight": "minor",
+  "ref_count": 0,
+  "gap": false
+ },
+ {
+  "slug": "saltborn",
+  "name": "Saltborn",
+  "kind": "species",
+  "section": "Section 3: Species and creature types",
+  "tier": "deep-cut",
+  "what": "Gulls that ate memory salt and now repeat the words of the dead (proposed).",
+  "maps_to": "ambient creature, hint system, bestiary entry",
+  "visual": "White gulls with crystal-grey eyes and salt crust on the wings (proposed)",
+  "lighting": "",
+  "appears": [
+   "Q2"
+  ],
+  "aliases": [],
+  "quotes": [],
+  "source": "owner",
+  "who": [],
+  "where": "",
+  "tone": [],
+  "follows": "",
+  "weight": "",
+  "refs": {
+   "folders": [],
+   "pointers": []
+  },
+  "unverified": false,
+  "proposed": true,
+  "file": "02 characters.md",
+  "line": 36,
+  "drives_moments": 0,
+  "story_weight": "none",
+  "ref_count": 0,
+  "gap": false
+ },
+ {
+  "slug": "the-salt-archive",
+  "name": "The Salt Archive",
+  "kind": "location",
+  "section": "1. Locations",
+  "tier": "iconic",
+  "what": "A drowned cathedral where memory salt is shelved in sealed jars. Its lower stacks are underwater at high tide.",
+  "maps_to": "hub area, stealth section in the sealed stacks",
+  "visual": "Half-flooded cathedral nave, endless shelves of glowing salt jars, green water",
+  "lighting": "cold blue daylight from high windows, faint white glow from the jars",
+  "appears": [
+   "Q1",
+   "Q3"
+  ],
+  "aliases": [
+   "the Archive"
+  ],
+  "quotes": [],
+  "source": "owner",
+  "who": [],
+  "where": "",
+  "tone": [],
+  "follows": "",
+  "weight": "",
+  "refs": {
+   "folders": [],
+   "pointers": []
+  },
+  "unverified": false,
+  "proposed": false,
+  "file": "03 places.md",
+  "line": 5,
+  "drives_moments": 3,
+  "story_weight": "major",
+  "ref_count": 0,
+  "gap": false
+ },
+ {
+  "slug": "low-tide-market",
+  "name": "Low Tide Market",
+  "kind": "location",
+  "section": "1. Locations",
+  "tier": "known",
+  "what": "A market on the rooftops that only opens when the tide is out.",
+  "maps_to": "shop, timed area that closes at high tide",
+  "visual": "Stalls on slate rooftops, rope bridges, lanterns, wet stone",
+  "lighting": "orange lanterns against a grey dusk",
+  "appears": [
+   "Q2"
+  ],
+  "aliases": [],
+  "quotes": [],
+  "source": "owner",
+  "who": [],
+  "where": "",
+  "tone": [],
+  "follows": "",
+  "weight": "",
+  "refs": {
+   "folders": [],
+   "pointers": []
+  },
+  "unverified": false,
+  "proposed": false,
+  "file": "03 places.md",
+  "line": 16,
+  "drives_moments": 2,
+  "story_weight": "minor",
+  "ref_count": 0,
+  "gap": false
+ },
+ {
+  "slug": "the-undertow",
+  "name": "The Undertow",
+  "kind": "faction",
+  "section": "3. Factions and organizations",
+  "tier": "known",
+  "what": "Smugglers who believe every memory belongs to whoever is left alive.",
+  "maps_to": "rival faction, stealth and trade quests, raid event",
+  "visual": "Figures in black oilskins with blue scarves over the face, small boats",
+  "lighting": "",
+  "appears": [
+   "Q3"
+  ],
+  "aliases": [],
+  "quotes": [],
+  "source": "owner",
+  "who": [],
+  "where": "",
+  "tone": [],
+  "follows": "",
+  "weight": "",
+  "refs": {
+   "folders": [],
+   "pointers": []
+  },
+  "unverified": false,
+  "proposed": false,
+  "file": "03 places.md",
+  "line": 28,
+  "drives_moments": 1,
+  "story_weight": "minor",
+  "ref_count": 0,
+  "gap": false
+ },
+ {
+  "slug": "the-great-drowning",
+  "name": "The Great Drowning",
+  "kind": "event",
+  "section": "4. Events",
+  "tier": "known",
+  "what": "The night the sea took the lower city, forty years ago. Most of the Archive's salt comes from it.",
+  "maps_to": "backstory reveal, memory sequence level",
+  "visual": "A city street at night with the sea pouring over the rooftops",
+  "lighting": "",
+  "appears": [
+   "Q2"
+  ],
+  "aliases": [],
+  "quotes": [],
+  "source": "owner",
+  "who": [],
+  "where": "",
+  "tone": [],
+  "follows": "",
+  "weight": "",
+  "refs": {
+   "folders": [],
+   "pointers": []
+  },
+  "unverified": false,
+  "proposed": false,
+  "file": "03 places.md",
+  "line": 39,
+  "drives_moments": 1,
+  "story_weight": "minor",
+  "ref_count": 0,
+  "gap": false
+ },
+ {
+  "slug": "memory-lamp",
+  "name": "Memory lamp",
+  "kind": "item",
+  "section": "Items and devices",
+  "tier": "iconic",
+  "what": "A brass lamp that burns memory salt and throws the memory on a wall, so no one has to taste it.",
+  "maps_to": "key item, puzzle tool, replaces a dialogue choice with a cutscene",
+  "visual": "Small brass oil lamp with a glass chimney full of white salt",
+  "lighting": "",
+  "appears": [
+   "Q2"
+  ],
+  "aliases": [],
+  "quotes": [],
+  "source": "owner",
+  "who": [],
+  "where": "",
+  "tone": [],
+  "follows": "",
+  "weight": "",
+  "refs": {
+   "folders": [],
+   "pointers": []
+  },
+  "unverified": false,
+  "proposed": false,
+  "file": "04 things.md",
+  "line": 5,
+  "drives_moments": 1,
+  "story_weight": "minor",
+  "ref_count": 0,
+  "gap": false
+ },
+ {
+  "slug": "brine-knife",
+  "name": "Brine knife",
+  "kind": "weapon",
+  "section": "Weapons",
+  "tier": "deep-cut",
+  "what": "A short knife the Undertow uses to pry the Archive's seals.",
+  "maps_to": "weapon, lockpick",
+  "visual": "Short curved blade, rope-wrapped handle, salt crust on the edge",
+  "lighting": "",
+  "appears": [
+   "Q3"
+  ],
+  "aliases": [],
+  "quotes": [],
+  "source": "owner",
+  "who": [],
+  "where": "",
+  "tone": [],
+  "follows": "",
+  "weight": "",
+  "refs": {
+   "folders": [],
+   "pointers": []
+  },
+  "unverified": false,
+  "proposed": false,
+  "file": "04 things.md",
+  "line": 16,
+  "drives_moments": 1,
+  "story_weight": "minor",
+  "ref_count": 0,
+  "gap": false
+ },
+ {
+  "slug": "tidecaller-skiff",
+  "name": "Tidecaller skiff",
+  "kind": "vehicle",
+  "section": "Vehicles",
+  "tier": "known",
+  "what": "A flat boat the smugglers pole through the drowned streets.",
+  "maps_to": "fast travel, chase sequence",
+  "visual": "Narrow flat black boat, long pole, a lantern hung at the bow",
+  "lighting": "",
+  "appears": [
+   "Q3"
+  ],
+  "aliases": [],
+  "quotes": [],
+  "source": "owner",
+  "who": [],
+  "where": "",
+  "tone": [],
+  "follows": "",
+  "weight": "",
+  "refs": {
+   "folders": [],
+   "pointers": []
+  },
+  "unverified": false,
+  "proposed": false,
+  "file": "04 things.md",
+  "line": 27,
+  "drives_moments": 1,
+  "story_weight": "minor",
+  "ref_count": 0,
+  "gap": false
+ },
+ {
+  "slug": "white-salt",
+  "name": "White salt",
+  "kind": "substance",
+  "section": "Substances and energy",
+  "tier": "iconic",
+  "what": "A memory crystallized when someone died near the sea. Tasting it replays the memory (DECISIONS 2).",
+  "maps_to": "currency, healing item, collectible lore pages",
+  "visual": "Coarse white crystals with a faint inner glow, in small corked jars",
+  "lighting": "",
+  "appears": [
+   "Q1",
+   "Q2",
+   "Q3"
+  ],
+  "aliases": [
+   "memory salt"
+  ],
+  "quotes": [],
+  "source": "DECISIONS 2",
+  "who": [],
+  "where": "",
+  "tone": [],
+  "follows": "",
+  "weight": "",
+  "refs": {
+   "folders": [],
+   "pointers": []
+  },
+  "unverified": false,
+  "proposed": false,
+  "file": "04 things.md",
+  "line": 38,
+  "drives_moments": 1,
+  "story_weight": "minor",
+  "ref_count": 0,
+  "gap": false
+ },
+ {
+  "slug": "q1-wren-tastes-a-memory",
+  "name": "Wren Tastes a Sealed Memory",
+  "kind": "moment",
+  "section": "Q1 · First Shelving",
+  "tier": "iconic",
+  "what": "Alone in the stacks, Wren opens a sealed jar and tastes it. She sees a stranger drowning and knows his name.",
+  "maps_to": "tutorial for the tasting mechanic, a curse that is also a gift",
+  "visual": "A girl in a flooded aisle, a cracked jar, white light on her face",
+  "lighting": "",
+  "appears": [
+   "Q1"
+  ],
+  "aliases": [],
+  "quotes": [],
+  "source": "owner",
+  "who": [
+   "wren-calloway",
+   "white-salt"
+  ],
+  "where": "the-salt-archive",
+  "tone": [
+   "eerie",
+   "tender"
+  ],
+  "follows": "",
+  "weight": "major",
+  "refs": {
+   "folders": [],
+   "pointers": []
+  },
+  "unverified": false,
+  "proposed": false,
+  "file": "08 moments.md",
+  "line": 5,
+  "ref_count": 0,
+  "gap": false
+ },
+ {
+  "slug": "q1-brinewarden-seals-the-stack",
+  "name": "The Brinewarden Seals the Stack",
+  "kind": "moment",
+  "section": "Q1 · First Shelving",
+  "tier": "known",
+  "what": "The Brinewarden finds the open jar and seals the whole aisle, without punishing Wren.",
+  "maps_to": "locked area, a boss who chooses mercy",
+  "visual": "An old woman turning an iron key in a shelf gate, salt dust falling",
+  "lighting": "",
+  "appears": [
+   "Q1"
+  ],
+  "aliases": [],
+  "quotes": [],
+  "source": "owner",
+  "who": [
+   "the-brinewarden",
+   "wren-calloway"
+  ],
+  "where": "the-salt-archive",
+  "tone": [
+   "orderly",
+   "cold"
+  ],
+  "follows": "q1-wren-tastes-a-memory",
+  "weight": "minor",
+  "refs": {
+   "folders": [],
+   "pointers": []
+  },
+  "unverified": false,
+  "proposed": false,
+  "file": "08 moments.md",
+  "line": 18,
+  "ref_count": 0,
+  "gap": false
+ },
+ {
+  "slug": "q2-tamsin-trades-the-lamp",
+  "name": "Tamsin Trades the Lamp",
+  "kind": "moment",
+  "section": "Q2 · The Lamp That Remembers",
+  "tier": "known",
+  "what": "Tamsin sells Wren the memory lamp for one jar of salt she has not tasted.",
+  "maps_to": "trade quest, a deal with a hidden price",
+  "visual": "A rooftop stall at dusk, a brass lamp handed across, gold teeth grinning",
+  "lighting": "",
+  "appears": [
+   "Q2"
+  ],
+  "aliases": [],
+  "quotes": [],
+  "source": "owner",
+  "who": [
+   "old-tamsin",
+   "wren-calloway"
+  ],
+  "where": "low-tide-market",
+  "tone": [
+   "greedy",
+   "clever"
+  ],
+  "follows": "",
+  "weight": "minor",
+  "refs": {
+   "folders": [],
+   "pointers": []
+  },
+  "unverified": false,
+  "proposed": false,
+  "file": "08 moments.md",
+  "line": 33,
+  "ref_count": 0,
+  "gap": false
+ },
+ {
+  "slug": "q2-lamp-shows-the-drowning",
+  "name": "The Lamp Shows the Drowning",
+  "kind": "moment",
+  "section": "Q2 · The Lamp That Remembers",
+  "tier": "iconic",
+  "what": "The lamp throws the Great Drowning on the market wall. Everyone at the stalls stops to watch.",
+  "maps_to": "backstory cutscene, an area-wide effect that stops every enemy",
+  "visual": "A whole rooftop crowd lit by a projected wave on a wall",
+  "lighting": "",
+  "appears": [
+   "Q2"
+  ],
+  "aliases": [],
+  "quotes": [],
+  "source": "owner",
+  "who": [
+   "wren-calloway",
+   "memory-lamp",
+   "the-great-drowning"
+  ],
+  "where": "low-tide-market",
+  "tone": [
+   "mournful"
+  ],
+  "follows": "q2-tamsin-trades-the-lamp",
+  "weight": "major",
+  "refs": {
+   "folders": [],
+   "pointers": []
+  },
+  "unverified": false,
+  "proposed": false,
+  "file": "08 moments.md",
+  "line": 46,
+  "ref_count": 0,
+  "gap": false
+ },
+ {
+  "slug": "q3-undertow-raid",
+  "name": "The Undertow Raids the Archive",
+  "kind": "moment",
+  "section": "Q3 · Undertow",
+  "tier": "known",
+  "what": "At high tide the smugglers pole skiffs into the nave and pry open the sealed stacks.",
+  "maps_to": "raid event, stealth level, timed escape",
+  "visual": "Black boats inside a flooded cathedral, knives at glowing jars",
+  "lighting": "",
+  "appears": [
+   "Q3"
+  ],
+  "aliases": [],
+  "quotes": [],
+  "source": "owner",
+  "who": [
+   "the-undertow",
+   "old-tamsin",
+   "tidecaller-skiff",
+   "brine-knife"
+  ],
+  "where": "the-salt-archive",
+  "tone": [
+   "chaotic",
+   "greedy"
+  ],
+  "follows": "",
+  "weight": "major",
+  "refs": {
+   "folders": [],
+   "pointers": []
+  },
+  "unverified": false,
+  "proposed": false,
+  "file": "08 moments.md",
+  "line": 61,
+  "ref_count": 0,
+  "gap": false
+ }
+]

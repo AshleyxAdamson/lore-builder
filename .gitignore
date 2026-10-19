@@ -1,0 +1,6 @@
+# Reference images, scans and source copies stay on your machine.
+refs/*
+!refs/.gitkeep
+examples/*/refs/
+.DS_Store
+__pycache__/

@@ -1,0 +1,46 @@
+# lore.toml: the one file that fits the kit to your project.
+# The lore-setup skill fills this in by interviewing you. Edit it by hand any time,
+# then rebuild: python3 -I tools/build_index.py
+
+[project]
+name = "The Salt Archive"
+# "adaptation": an existing work (a show, a book, a game) whose facts you cite from sources.
+# "original":   a world you are inventing, whose facts come from you (the owner).
+mode = "original"
+# What the bible feeds. It names the `maps-to` vocabulary and the mapping rubric in 00.
+# Examples: "Magic cards", "quests", "enemy design", "level themes", "chapters", "tabletop sessions".
+target = "quests and items for a small RPG"
+# true when entries carry a `visual` line for artists or an image model. false for text-only projects.
+visual = true
+
+[units]
+# The unit the work is told in: episode, chapter, quest, level, session, issue, book.
+name = "quest"
+# A regex that matches one unit code, as written in 01 and in `appears`.
+# Episodes: "S\\d+E\\d+"  Chapters: "CH\\d+"  Quests: "Q\\d+"  Books and chapters: "B\\d+C\\d+"
+# Leave empty for a setting with no units yet: `appears` becomes optional and moments group by plain headings.
+pattern = "Q\\d+"
+
+[tiers]
+# Fame with your audience, best known first. Keep three unless you have a reason.
+values = ["iconic", "known", "deep-cut"]
+# An entry in the first two tiers with fewer reference images than this is listed as a gap (only when refs/ exists).
+gap_min_refs = 3
+
+[moments]
+# The tone vocabulary for moments. 00 index maps each tone to an axis of your target (colors, factions, moods).
+tones = ["dark", "sinister", "cold", "clever", "controlling", "chaotic", "violent", "impulsive",
+         "triumphant", "heroic", "orderly", "loyal", "hopeful", "tender", "mournful", "eerie",
+         "wild", "bodily", "grotesque", "absurd", "pathetic", "political", "greedy", "peaceful"]
+
+[voice]
+# Quote lines in 06 flagged SHORT must fit in this many characters (flavor text, barks, tooltips).
+line_max = 90
+
+# Heading keyword -> kind, per bible file. The first keyword found in a heading wins; "" is the fallback.
+# A `#` or `##` heading sets the kind for the `###` entries under it.
+[kinds]
+"02" = [["alternate", "variant"], ["variant", "variant"], ["species", "species"], ["creature", "species"], ["", "character"]]
+"03" = [["faction", "faction"], ["organization", "faction"], ["event", "event"], ["realm", "realm"],
+        ["dimension", "realm"], ["world", "realm"], ["", "location"]]
+"04" = [["weapon", "weapon"], ["vehicle", "vehicle"], ["substance", "substance"], ["media", "media"], ["", "item"]]
